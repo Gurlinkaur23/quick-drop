@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Quick Drop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style/index.css" media="all" />
+    <script src="./assets/script/app.js" type="module"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <h2>QuickDrop</h2>
+        <div class="links">
+          <nav>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+          <button class="btn login">Login</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <div class="hero-text container">
+          <h1>Welcome to <span>QuickDrop</span></h1>
+          <h2>Your Fast and Reliable Delivery Service.</h2>
+          <button class="btn know-more">Discover more</button>
+        </div>
+        <div class="image">
+          <h2>Your parcel, Our priority</h2>
+          <h2>Always on time</h2>
+          <button class="btn track-order">
+            <a href="#location">Track your order</a>
+          </button>
+        </div>
+        <div class="usage">
+          <div class="container">
+            <h2>Why use the QuickDrop?</h2>
+            <section class="reasons">
+              <div class="info">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Deliveries on Time</h3>
+                <p>
+                  Request a courier anytime, any day for swift, stress-free
+                  deliveries of important documents or packages.
+                </p>
+              </div>
+              <div class="info">
+                <i class="fa-solid fa-lock"></i>
+                <h3>Secure Deliveries</h3>
+                <p>
+                  Your items are secure with our reliable courier team, ensuring
+                  the safe transport of your documents and packages.
+                </p>
+              </div>
+              <div class="info">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Track in Real Time</h3>
+                <p>
+                  Stay in control with real-time tracking. From pickup to
+                  drop-off, know your delivery's status instantly.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="map container" id="location">
+          <h2>Track your order here</h2>
+          <div id="map"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer container">
+        <div class="icon">
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>&copy; 2023 QuickDrop</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
